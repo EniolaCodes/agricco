@@ -13,6 +13,7 @@ module.exports = {
 				agriccoGrey: "#EDFAF2",
 				agriccoDark: "#A5AFAA",
 				agriccoBlack: "#BEBEBE",
+				agriccoBg: "#0A090A",
 				background: "hsl(var(--background))",
 				foreground: "hsl(var(--foreground))",
 				card: {

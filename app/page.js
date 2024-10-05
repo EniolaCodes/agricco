@@ -6,11 +6,13 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 
 export default function Home() {
 	return (
 		<div className="">
+			{/* <Navbar/> */}
 			<Hero/>
 			<About/>
 			<Products/>
