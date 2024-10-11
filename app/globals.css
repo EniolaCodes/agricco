@@ -81,6 +81,9 @@ body {
     width: 100%;
   }
 }
+.list-style-circle {
+  list-style-type: circle;
+}
 /* .navSize {
   @media only screen and (min-width: 1024px ) {
     width: 1384px;

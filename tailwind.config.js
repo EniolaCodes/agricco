@@ -18,6 +18,7 @@ module.exports = {
 				agriccoBody: "#454545",
 				agriccoLabel: "#1C7B42",
 				agriccoSubtle: "#E9F7EF",
+				agriccoFoundation: "#104927",
 				background: "hsl(var(--background))",
 				foreground: "hsl(var(--foreground))",
 				card: {

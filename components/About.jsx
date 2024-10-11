@@ -1,28 +1,34 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { About_img } from "@/public/images";
+import { About_img, thick_green, thin_green } from "@/public/images";
 
 const About = () => {
 	return (
-		<div className="flex justify-center items-center min-h-screen">
+		<div className="flex justify-center items-center min-h-screen gap-16">
 			{/* right */}
-			<div className="w-1/2 ">
+			<div className="w-1/2 relative">
+				<div className="bg-agriccoFoundation h-8 w-[70%]" />
+				<div className="bg-agriccoFoundation absolute top-0 left-0 h-full w-6" />
+				<div className="bg-agriccoFoundation absolute top-4 right-0  h-1 w-[30%]" />
+				<div className="bg-agriccoFoundation absolute bottom-0 right-10 h-full w-1" />
+				<div className="bg-agriccoFoundation absolute bottom-4 right-0 h-1 w-[30%]" />
 				<Image
 					src={About_img}
-					width={900}
-					height={600}
+					width={600}
+					height={400}
 					alt="Person unpacking groceries in a kitchen"
 					className=""
 				/>
+				<div className="bg-agriccoFoundation h-8 w-[70%]" />
 			</div>
 			{/* left */}
 			<div className="w-1/2">
 				<div className="mb-4">
 					<span className="bg-agriccoSubtle text-agriccoLabel px-3 py-1 rounded-full text-xl">
-						About me
+						About us
 					</span>
 				</div>
-				<div className="max-w-[700px]">
+				<div className="">
 					<h1 className="text-4xl font-bold text-agriccoTitle mb-4">
 						Your Source for essentials, Fresh produce, and Agriculture solutions
 					</h1>
