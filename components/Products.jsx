@@ -56,9 +56,9 @@ const Products = () => {
 					sourced farm produce and high-quality meats. We&#39;re committed to
 					providing affordable products that meet our community&#39;s needs.
 				</p>
-				{/* <Button variant="agricco" size="lg" className="full-width-on-xs">
+				<Button variant="agricco" size="lg" className="full-width-on-xs">
 					Explore
-				</Button> */}
+				</Button>
 			</div>
 			<div className="flex h-full overflow-hidden">
 				{/* Mobile View (Single Column with Combined Images) */}
