@@ -10,6 +10,7 @@ module.exports = {
 		extend: {
 			colors: {
 				agriccoGreen: "#E9F7EF",
+				agriccoWhite: "#EDF9F2",
 				agriccoGrey: "#EDFAF2",
 				agriccoDark: "#A5AFAA",
 				agriccoBlack: "#BEBEBE",

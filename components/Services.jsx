@@ -35,9 +35,12 @@ const Services = () => {
 							<li>Convenient delivery</li>
 							<li>Customization options</li>
 						</ul>
-						<button className=" text-white px-4 py-2  border-2 border-green-900 rounded-md font-bold flex justify-end">
+						<div className="flex">
+<button className=" text-white px-4 py-2  border-2 border-white rounded-md font-bold">
 							Book Now
 						</button>
+						</div>
+						
 					</div>
 				</div>
 			</div>

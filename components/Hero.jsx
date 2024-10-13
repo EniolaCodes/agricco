@@ -13,7 +13,7 @@ const Hero = () => {
 			<Navbar />
 			<div className="z-40 relative p-4 md:p-16">
 				<div className="flex flex-col gap-4 justify-start mt-28">
-					<h1 className="text-[#EDF9F2] text-4xl md:text-5xl lg:text-6xl font-extrabold md:max-w-[900px]">
+					<h1 className="text-agriccoWhite text-4xl md:text-5xl lg:text-6xl font-extrabold md:max-w-[900px]">
 						Welcome to Agricco - Your One-Stop Supermarket and Agricultural
 						Platform.
 					</h1>
