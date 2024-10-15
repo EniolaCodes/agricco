@@ -19,7 +19,7 @@ const buttonVariants = cva(
 					"bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
 				ghost: "hover:bg-accent hover:text-accent-foreground",
 				link: "text-primary underline-offset-4 hover:underline",
-				agricco: "text-[#E9F7EF] bg-[#1C7B42] shadow-sm",
+				agricco: "text-[#E9F7EF] bg-[#1C7B42] hover:bg-[#155e35] shadow-sm",
 			},
 			size: {
 				default: "h-9 px-4 py-2",

@@ -1,14 +1,13 @@
 import Logo from "./Logo.svg";
 import Background_img from "./image 3.svg";
 import Logo2 from "./AgriccoNG.svg";
-import  About_img  from './abtImg.svg';
+import About_img from "./abtImg.svg";
 import thick_green from "./Rectangle 2.svg";
 import thin_green from "./Rectangle 3.svg";
-import Ofada from "./ofada 1.svg";
-import Semo from "./semo 1.svg";
-import Pepper from "./image-removebg-preview (1) 1.svg";
-import Chicken from "./image-removebg-preview 1.svg";
-import Farrows from "./20230208_171951 1.svg";
+import Service_img from "./serviceImg.svg";
+import ServiceImg1 from "./image.svg";
+import ServiceImg2 from "./image (1).svg";
+import ServiceImg3 from "./image (2).svg";
 
 
 export {
@@ -18,9 +17,8 @@ export {
 	Logo2,
 	thick_green,
 	thin_green,
-	Semo,
-	Ofada,
-	Pepper,
-	Chicken,
-	Farrows,
+	Service_img,
+	ServiceImg1,
+	ServiceImg2,
+	ServiceImg3,
 };

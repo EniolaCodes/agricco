@@ -21,7 +21,7 @@ const Products = () => {
 	// Check if the screen width is mobile size
 	useEffect(() => {
 		const handleResize = () => {
-			setIsMobile(window.innerWidth < 768); // `md` breakpoint in Tailwind is 768px
+			setIsMobile(window.innerWidth < 768); 
 		};
 
 		handleResize(); // Check on component mount
