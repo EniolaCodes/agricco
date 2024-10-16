@@ -8,6 +8,10 @@ import Service_img from "./serviceImg.svg";
 import ServiceImg1 from "./image.svg";
 import ServiceImg2 from "./image (1).svg";
 import ServiceImg3 from "./image (2).svg";
+import Image1  from "./image1.svg";
+import Image2 from "./image2.svg";
+import Image3 from "./image3.svg";
+import Image4 from "./image4.svg"
 
 
 export {
@@ -21,4 +25,8 @@ export {
 	ServiceImg1,
 	ServiceImg2,
 	ServiceImg3,
+	Image1,
+	Image2,
+	Image3,
+	Image4
 };
