@@ -84,6 +84,13 @@ body {
 .list-style-circle {
   list-style-type: circle;
 }
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
 /* .navSize {
   @media only screen and (min-width: 1024px ) {
     width: 1384px;
