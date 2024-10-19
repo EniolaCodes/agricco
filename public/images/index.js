@@ -12,7 +12,8 @@ import Image1  from "./image1.svg";
 import Image2 from "./image2.svg";
 import Image3 from "./image3.svg";
 import Image4 from "./image4.svg";
-import ContactImg from "./contactImg.svg;"
+import ContactImg from "./contact.svg"
+
 
 
 
@@ -31,5 +32,6 @@ export {
 	Image2,
 	Image3,
 	Image4,
-	ContactImg
+	ContactImg,
+
 };

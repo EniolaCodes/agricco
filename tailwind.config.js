@@ -20,6 +20,7 @@ module.exports = {
     			agriccoLabel: '#1C7B42',
     			agriccoSubtle: '#E9F7EF',
     			agriccoFoundation: '#104927',
+				agriccoForm: "#949494",
     			background: 'hsl(var(--background))',
     			foreground: 'hsl(var(--foreground))',
     			card: {
