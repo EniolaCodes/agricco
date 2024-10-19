@@ -18,6 +18,8 @@ module.exports = {
     			agriccoTitle: '#171617',
     			agriccoBody: '#454545',
     			agriccoLabel: '#1C7B42',
+				agriccoFooter: '#FDFEFD',
+				agriccoSocial: '#EBFFE6',
     			agriccoSubtle: '#E9F7EF',
     			agriccoFoundation: '#104927',
 				agriccoForm: "#949494",

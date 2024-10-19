@@ -16,17 +16,6 @@ const Navbar = () => {
 		setNav(!nav);
 	};
 
-	// useEffect(() => {
-	// 	const handleShadow = () => {
-	// 		if (window.scrollY >= 90) {
-	// 			setShadow(true);
-	// 		} else {
-	// 			setShadow(false);
-	// 		}
-	// 	};
-	// 	window.addEventListener("scroll", handleShadow);
-	// }, []);
-
 	return (
 		<div
 			style={{ backgroundColor: `${navBg}` }}
@@ -41,7 +30,9 @@ const Navbar = () => {
 				<div className="flex justify-between items-center gap-8">
 					<ul className="hidden md:flex gap-4 text-agriccoGreen text-base font-normal">
 						<li className="text-inherit font-[inherit]">
-							<Link href="/" className="font-[inherit]">Home</Link>
+							<Link href="/" className="font-[inherit]">
+								Home
+							</Link>
 						</li>
 						<li className="text-inherit font-[inherit]">
 							<Link href="/#about">About</Link>
@@ -54,7 +45,7 @@ const Navbar = () => {
 							<Link href="/#services">Services</Link>
 						</li>
 						<li className="text-inherit font-[inherit]">
-							<Link href="/#contact" >Contact</Link>
+							<Link href="/#contact">Contact</Link>
 						</li>
 					</ul>
 					<div onClick={handleNav} className="md:hidden">

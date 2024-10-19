@@ -91,24 +91,3 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Opera */
 }
-/* .navSize {
-  @media only screen and (min-width: 1024px ) {
-    width: 1384px;
-    padding-top:19px;
-    padding-right: 15px;
-    padding-left: 16px;
-    }
-  @media only screen and (min-width: 768px) {
-    width: 942px;
-    padding-top:9px;
-    padding-right: 19px;
-    padding-left: 11px;
-  }
-  @media only screen and (min-width: 576px) {
-    width: 345px;
-    padding-top:15px;
-    padding-right: 10px;
-    padding-left: 4px;
-    padding-bottom: 14px;
-  }
-} */
