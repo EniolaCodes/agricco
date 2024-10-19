@@ -10,12 +10,13 @@ import {
 const Footer = () => {
 	return (
 		<footer
-			className="w-full relative h-[215px] bg-cover bg-center bg-no-repeat mt-16"
+			className="w-full relative h-auto bg-cover bg-center bg-no-repeat mt-16"
 			style={{ backgroundImage: "url('/images/pikaso_embed 2.svg')" }}
 		>
+			{/* Top Section */}
 			<div className="pt-4 pl-4 pr-4 md:pt-16 md:pl-16 md:pr-16 md:pb-8 flex flex-col md:flex-row justify-between items-center">
-				<Image src={Logo} width={150} height={150} alt="logo" className="" />
-				<nav className=" flex-col md:flex-row space-x-4">
+				<Image src={Logo} width={150} height={150} alt="logo" />
+				<nav className="flex flex-col md:flex-row space-x-4">
 					<a href="/" className="text-agriccoFooter">
 						Home
 					</a>
@@ -43,27 +44,39 @@ const Footer = () => {
 						<FaFacebookF size={20} />
 					</a>
 				</div>
-            </div>
-            <hr className="bg-agriccoSocial"/>
-            <div className="pt-4 pl-4 pr-4 md:pt-16 md:pl-16 md:pr-16 md:pb-8 flex flex-col md:flex-row justify-between items-center">
-                    <div className="flex">
-                        <div className="flex flex-col">
-						    <h3 className="font-bold text-gray-300">Phone</h3>
-						    <p className="text-sm">+(234) 7066375930</p>
-					    </div>
-                        <div className="flex flex-col">
-						    <h3 className="font-bold text-gray-300">Email</h3>
-						    <p className="text-sm">tech.agricco.io</p>
-					    </div>
-                        <div className="flex flex-col">
-						    <h3 className="font-bold text-gray-300">Address</h3>
-						    <p className="text-sm">
-							Idi obi junction, Ologuneru, Ibadan-Eruwa Expy, Ibadan
-						    </p>
-					    </div>
-                    </div>
-            </div>	
+			</div>
+			<hr className="bg-agriccoSocial h-0.5" />
+
+			{/* Bottom Section */}
+			<div className="pt-4 pl-4 pr-4 pb-8 md:pt-8 md:pl-16 md:pr-16 flex flex-col md:flex-row justify-between items-center md:space-x-8">
+				{/* Phone */}
+				<div className="flex flex-col items-center justify-center">
+					<h3 className="text-agriccoContact font-extrabold">Phone</h3>
+					<p className="text-sm text-agriccoFooter">+(234) 7066375930</p>
+				</div>
+
+				{/* Vertical Divider */}
+				<div className="hidden md:block h-full border-l-2 border-agriccoSocial"></div>
+
+				{/* Email */}
+				<div className="flex flex-col items-center justify-center">
+					<h3 className="text-agriccoContact font-extrabold">Email</h3>
+					<p className="text-sm text-agriccoFooter">tech.agricco.io</p>
+				</div>
+
+				{/* Vertical Divider */}
+				<div className="hidden md:block h-full border-l-2 border-agriccoSocial"></div>
+
+				{/* Address */}
+				<div className="flex flex-col items-center justify-center">
+					<h3 className="text-agriccoContact font-extrabold">Address</h3>
+					<p className="text-sm text-agriccoFooter">
+						Idi obi junction, Ologuneru, Ibadan-Eruwa Expy, Ibadan
+					</p>
+				</div>
+			</div>
 		</footer>
 	);
 };
+
 export default Footer;

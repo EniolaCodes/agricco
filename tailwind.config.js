@@ -20,6 +20,7 @@ module.exports = {
     			agriccoLabel: '#1C7B42',
 				agriccoFooter: '#FDFEFD',
 				agriccoSocial: '#EBFFE6',
+				agriccoContact: '#F8FDFA',
     			agriccoSubtle: '#E9F7EF',
     			agriccoFoundation: '#104927',
 				agriccoForm: "#949494",
