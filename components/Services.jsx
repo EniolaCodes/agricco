@@ -50,7 +50,7 @@ const serviceCards = [
 const Services = () => {
 	return (
 		<div className="mt-16">
-			<div className="text-center py-10">
+			<div className="text-center p-4">
 				<span className="bg-agriccoSubtle text-agriccoLabel px-3 py-1 mb-4 rounded-full text-xl">
 					Our Services
 				</span>
@@ -105,7 +105,7 @@ const Services = () => {
 					</div>
 				</div>
 			</div>
-			<div className="text-center py-10">
+			<div className="text-center p-4">
 				<div className="inline-block bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm mb-2">
 					Our Services
 				</div>

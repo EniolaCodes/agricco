@@ -21,7 +21,7 @@ const Products = () => {
 	// Check if the screen width is mobile size
 	useEffect(() => {
 		const handleResize = () => {
-			setIsMobile(window.innerWidth < 768); 
+			setIsMobile(window.innerWidth < 768);
 		};
 
 		handleResize(); // Check on component mount
@@ -42,8 +42,8 @@ const Products = () => {
 		>
 			<div className="absolute inset-0 bg-agriccoBg opacity-90" />
 
-			<div className="w-full p-4 md:p-16 md:w-1/2 z-40 relative ">
-				<span className="bg-agriccoSubtle text-agriccoLabel text-xl py-2 px-4 rounded-full mb-8">
+			<div className="w-full p-4 mt-10 md:p-16 md:w-1/2 z-40 relative ">
+				<span className="bg-agriccoSubtle text-agriccoLabel text-xl py-2 px-4 rounded-full ">
 					Shop with us @Agricco NG
 				</span>
 				<h1 className="text-agriccoWhite text-5xl font-bold mb-12 mt-8">
