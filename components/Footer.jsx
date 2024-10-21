@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Logo } from "@/public/images";
 import {
 	FaFacebookF,
@@ -16,20 +17,21 @@ const Footer = () => {
 			{/* Top Section */}
 			<div className="pt-4 pl-4 pr-4 md:pt-16 md:pl-16 md:pr-16 md:pb-8 flex flex-col md:flex-row justify-between items-center">
 				<Image src={Logo} width={150} height={150} alt="logo" />
-				<nav className="flex flex-col md:flex-row space-x-4">
-					<a href="/" className="text-agriccoFooter">
-						Home
-					</a>
-					<a href="/about" className="text-agriccoFooter">
-						About
-					</a>
-					<a href="/products" className="text-agriccoFooter">
-						Products
-					</a>
-					<a href="/services" className="text-agriccoFooter">
-						Services
-					</a>
-				</nav>
+				<ul className="flex flex-col gap-4 md:flex-row md:space-x-4  text-agriccoFooter text-[20px]">
+					<li className="text-inherit">
+						<Link href="/">Home</Link>
+					</li>
+
+					<li className="text-inherit">
+						<Link href="/#about">About</Link>
+					</li>
+					<li className="text-inherit">
+						<Link href="/#products">Products</Link>
+					</li>
+					<li className="text-inherit">
+						<Link href="/#services">Services</Link>
+					</li>
+				</ul>
 				<div className="flex space-x-4 mt-4 md:mt-0">
 					<a href="#" className="text-agriccoSocial">
 						<FaTwitter size={20} />
@@ -45,29 +47,24 @@ const Footer = () => {
 					</a>
 				</div>
 			</div>
-			<hr className="bg-agriccoSocial h-0.5" />
+			<hr className="bg-agriccoSocial h-0.5 mt-4 md:mt-0" />
 
 			{/* Bottom Section */}
 			<div className="pt-4 pl-4 pr-4 pb-8 md:pt-8 md:pl-16 md:pr-16 flex flex-col md:flex-row justify-between items-center md:space-x-8">
-				{/* Phone */}
 				<div className="flex flex-col items-center justify-center">
 					<h3 className="text-agriccoContact font-extrabold">Phone</h3>
 					<p className="text-sm text-agriccoFooter">+(234) 7066375930</p>
 				</div>
 
-				{/* Vertical Divider */}
-				<div className="hidden md:block h-full border-l-2 border-agriccoSocial"></div>
+				{/* <hr className="md:hiddem bg-agriccoSocial w-full mt-1" /> */}
 
-				{/* Email */}
-				<div className="flex flex-col items-center justify-center">
+				<div className="flex flex-col items-center justify-center md:pl-28">
 					<h3 className="text-agriccoContact font-extrabold">Email</h3>
 					<p className="text-sm text-agriccoFooter">tech.agricco.io</p>
 				</div>
 
-				{/* Vertical Divider */}
-				<div className="hidden md:block h-full border-l-2 border-agriccoSocial"></div>
+				{/* <hr className="md:hiddem bg-agriccoSocial w-full mt-1" /> */}
 
-				{/* Address */}
 				<div className="flex flex-col items-center justify-center">
 					<h3 className="text-agriccoContact font-extrabold">Address</h3>
 					<p className="text-sm text-agriccoFooter">

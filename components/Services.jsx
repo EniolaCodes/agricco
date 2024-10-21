@@ -49,7 +49,7 @@ const serviceCards = [
 
 const Services = () => {
 	return (
-		<div className="mt-16">
+		<div className="mt-16" id="services">
 			<div className="text-center p-4">
 				<span className="bg-agriccoSubtle text-agriccoLabel px-3 py-1 mb-4 rounded-full text-xl">
 					Our Services

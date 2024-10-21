@@ -38,6 +38,7 @@ const Products = () => {
 	return (
 		<div
 			className="relative flex flex-col md:h-[683px] md:flex-row items-center justify-between"
+			id="products"
 			style={{ backgroundImage: "url('/images/Shop with us.svg')" }}
 		>
 			<div className="absolute inset-0 bg-agriccoBg opacity-90" />
@@ -108,7 +109,7 @@ const Products = () => {
 						<motion.div
 							className="flex flex-col space-y-6"
 							initial={{ y: 0 }}
-							animate={{ y: [600, 0] }}
+							animate={{ y: [0, -600] }}
 							transition={{
 								repeat: Infinity,
 								duration: 10,

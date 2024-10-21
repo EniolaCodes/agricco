@@ -4,7 +4,7 @@ import { About_img } from "@/public/images";
 
 const About = () => {
 	return (
-		<div className="flex flex-col md:flex-row justify-center items-center min-h-screen mt-8">
+		<div className="flex flex-col md:flex-row justify-center items-center min-h-screen mt-8" id="about">
 			{/* <div className="w-full md:w-1/2 relative">
 				<div className="bg-agriccoFoundation h-10 w-[70%]" />
 				<div className="bg-agriccoFoundation absolute top-0 left-0 h-full w-8" />
@@ -22,7 +22,6 @@ const About = () => {
 			</div> */}
 
 			<div className="w-full md:w-1/2 relative flex justify-center items-center">
-				
 				<div className="bg-agriccoFoundation p-10">
 					<Image
 						src={About_img}

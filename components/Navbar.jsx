@@ -30,7 +30,7 @@ const Navbar = () => {
 				<div className="flex justify-between items-center gap-8">
 					<ul className="hidden md:flex gap-4 text-agriccoGreen text-base font-normal">
 						<li className="text-inherit font-[inherit]">
-							<Link href="/" className="font-[inherit]">
+							<Link href="/">
 								Home
 							</Link>
 						</li>
