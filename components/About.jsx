@@ -1,40 +1,21 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { About_img } from "@/public/images";
+import { AbtImg } from "@/public/images";
 
 const About = () => {
 	return (
-		<div className="flex flex-col md:flex-row justify-center items-center min-h-screen mt-8" id="about">
-			{/* <div className="w-full md:w-1/2 relative">
-				<div className="bg-agriccoFoundation h-10 w-[70%]" />
-				<div className="bg-agriccoFoundation absolute top-0 left-0 h-full w-8" />
-				<div className="bg-agriccoFoundation absolute top-5 right-0  h-1 w-[30%]" />
-				<div className="bg-agriccoFoundation absolute bottom-0 right-28 h-full w-1" />
-				<div className="bg-agriccoFoundation absolute bottom-5 right-0 h-1 w-[30%]" />
-				<Image
-					src={About_img}
-					width={500}
-					height={500}
-					alt="Person unpacking groceries in a kitchen"
-					className=""
-				/>
-				<div className="bg-agriccoFoundation h-10 w-[70%]" />				
-			</div> */}
-
-			<div className="w-full md:w-1/2 relative flex justify-center items-center">
-				<div className="bg-agriccoFoundation p-10">
-					<Image
-						src={About_img}
-						width={500}
-						height={500}
-						alt="Person unpacking groceries in a kitchen"
-						className=""
-					/>
-				</div>
-			</div>
+		<div
+			className="h-screen mt-16 flex flex-col md:flex-row items-center"
+			id="about"
+		>
+			{/* right */}
+		<div className="mr-12">
+			<Image src={AbtImg} width={600} height={600} alt="logo" className="object-cover" />
+		</div>
+			
 
 			{/* left */}
-			<div className="w-full p-4 md:w-1/2">
+			<div className="w-full p-4 md:w-1/2 h-full md:h-[600px]">
 				<div className="mb-4 mt-4">
 					<span className="bg-agriccoSubtle text-agriccoLabel px-3 py-1 rounded-full text-xl">
 						About us
